@@ -6,13 +6,21 @@
 class Pessoa
 {
     public:
+        SetNome();
+        GetNome();
+        SetIdade();
+        GetIdade();
+        SetTelefone();
+        GetTelefone();
+
+
+
+    private:
         Pessoa();
         virtual ~Pessoa();
         std::string nome;
         int idade;
         std::string telefone;
-
-    private:
 };
 
 #endif
