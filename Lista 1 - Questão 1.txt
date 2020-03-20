@@ -1,0 +1,12 @@
+(a) -  Classes são basicamente estruturas primordiais de dados, enquanto objetos são intâncias de classes 
+e agem como variáveis das mesmas. Classes definem as características de algo e objetos são algo com tais
+características. 
+(b) - Um construtor é uma função que é chamada toda vez que um objeto de uma classe é criada para definir 
+seus parâmetros. Pode ser utilizado com a sintaxe: 
+		[Nome da classe]([tipo de dado] [nome da variável ou valor]);
+(c) - O uso de encapsulamento permite trabalhar com menor quantidade de ou nenhum parâmetro, 
+facilitando a produção do código e deixando-o mais estável, visto que é mais fácil editar o código 
+sem ter que se preocupar em editar incontáveis funções. Digamos que tenho uma função que calcula o preço de 
+refeições. Em C, eu usaria diversas funções, uma para cada tipo de refeição, cada uma com suas 
+particularidades e parâmetros. Ao modificar a função de cálculo, seria preciso copiar a mudança a todas as 
+linhas de código que a usassem, enquanto no encapsulamento a mudança só ocorre na função de cálculo. 
